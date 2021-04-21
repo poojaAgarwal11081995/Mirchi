@@ -1,0 +1,4 @@
+RewriteEngine On
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ %{ENV:BASE}index.html [QSA,L]

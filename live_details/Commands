@@ -1,0 +1,149 @@
+Login to server:
+
+ssh username@IpAddress
+ssh root@139.162.29.56
+
+see all Folder List:
+ls
+
+see root path:
+pwd TQa25FTk0Tb6
+
+delete Folder or file :
+
+rm -rf file or folder name
+
+make directory command
+
+mkdir folder name
+
+make file
+
+touch file name which one you want to create
+
+/var/www
+
+git commands:
+
+git add .
+
+commit:
+git commit -m "Work Done"
+
+push:
+
+git push origin master
+
+for see changes:
+
+git status
+
+git stash
+
+git pull origin master
+
+open git gui:
+/usr/local/opt/git/bin/git gui
+
+npm install node-gyp -g
+npm install bcrypt -g
+
+npm install bcrypt -save
+
+
+
+kill port
+
+fuser 3060/tcp -k
+
+provide Access :
+
+chmod -R 777 uploads/
+
+Port 3060 is already in use
+
+lsof -i tcp:3060
+kill -9 PID
+killall -9 node
+update latest plugins
+$ npx npm-check-updates -u
+$ npm install
+
+/var/www
+go to root directory
+forever start app.js
+Login to server:
+
+ssh username@IpAddress
+ssh root@139.162.29.56
+
+see all Folder List:
+ls
+
+see root path:
+pwd
+
+delete Folder or file :
+
+rm -rf file or folder name
+
+make directory command
+
+mkdir folder name
+
+make file
+
+touch file name which one you want to create
+
+/var/www
+
+git commands:
+
+git add .
+
+commit:
+git commit -m "Work Done"
+
+push:
+
+git push origin master
+
+for see changes:
+
+git status
+
+git stash
+
+git pull origin master
+
+open git gui:
+/usr/local/opt/git/bin/git gui
+
+npm install node-gyp -g
+npm install bcrypt -g
+
+npm install bcrypt -save
+
+
+
+kill port
+
+fuser 3080/tcp -k
+
+provide Access :
+
+chmod -R 777 uploads/
+
+Port 3080 is already in use
+
+lsof -i tcp:3080
+kill -9 PID
+killall -9 node
+update latest plugins
+$ npx npm-check-updates -u
+$ npm install
+
+/var/www
+go to root directory
+forever start app.js
+

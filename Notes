@@ -1,0 +1,182 @@
+
+Back Uploading Steps
+
+1. make production = true in .env file
+2. git add .
+3. git commit -m "msg"
+4. git push
+5. open new terminal
+6. enter "ssh root@139.162.29.56" and hit enter key
+7. enter password "TQa25FTk0Tb6"
+8. enter "cd /var/www"
+9. enter "cd brfoodbackendnode"
+8 enter "ls" to check dist file does exist if it does then run below command first
+9. "rm -rf dist"
+10. enter "git pull"
+12 enter password "brsoftech@123"
+13. enter "npm run build"
+14. enter "npm run stopForever"
+14. enter "npm run startForever"
+
+
+
+Maked Apis
+
+http://192.168.1.193:3080/api/v1/restro/changeRestroStatus<br />
+RequestData:
+
+_id:5d1b4c0c2985c79555f6e197
+status:BLOCKED
+
+export const STATUS_ACTIVE = A;
+export const STATUS_IN_ACTIVE = IA;
+export const STATUS_BLOCKED = BLOCKED;
+export const STATUS_UNBLOCKED = UNBLOCKED;
+export const STATUS_APPROVED = APPROVED;
+export const STATUS_REJECTED = REJECTED;
+
+1) Request page necessary view icon
+
+24july2019
+
+Driver Add/Edit
+1) Vichale Number 
+2) RC Image
+3) Vichale Polution Certificate Image
+4.) Account Details ( IFSC Code, Account Number)
+
+
+
+1 Aug 2019 Task
+1.) User List Show On Admin
+
+2.) Fair managament  > i) 
+
+5Aug2019
+1.) Requested Driver make new row remaining
+2.) Add field in driver > account name , bank name , 
+
+06Aug 2019
+1.) Add Product in final price auto calculated > Done 
+2.) User List.
+3.) Restro Cate Add Option in admin panel  > Done
+
+
+08 Aug 2019
+1.) 
+
+Done Points 
+1.) Restro Doc Verfiy 
+2.) Driver Doc Verfiy 
+3.) Design Rating Review.
+4.) Add In Coupon From Valid And To Valid Date.
+5.) Add In Edit Coupon From Valid And To Valid Date on Edit.
+6.) Add Discount Percent For Show Offers On Product page
+7.) Add Discount Percent For Show Offers On EditProduct page
+8.) Created Date Show RestroList And Driver List
+9.) Coupon Logo Add 
+
+11 Aug2019
+1). Emergancy No.
+2). Blood Group  Done
+
+13 Aug2019
+1.) Searching And Filtering All App Screens
+2.) Pagination
+
+17 Aug2019
+
+1.) Incentive managmanet
+
+21Aug2019
+1.) Subadmin managament
+
+29Aug2019
+1.) In Restro List         i) Order History > filter date wise from to
+2.) In Driver List         i) Order History > filter date wise from to
+3.) In User List         i) Order History > filter date wise from to
+4.) In Order Details Page  i) Show there driver details also
+5.) Restro details and Driver details show on order details page.
+6.) Online/Offline Restro 
+
+5 Sep2019
+1.) Restro Payment History ()
+2.) Driver Payment History
+3.) Commission from Restaurant.
+4.) Dilevery charges history
+5.) Dilevery charges Managmant
+6.) SubAdmins
+
+6Aug2019
+1.) Path change 
+2.) 
+
+11Sep2019
+1.) Admin Commission charge > 
+
+13Sep2019
+1.) In add product add one more field packaging charge
+
+{"week_start_date":1568485800000,"week_end_date":1569090599999,"delivery_man_id":"5d51075379a6475bd91767e5"}
+ API Post: http://192.168.1.193:3080/api/v1/order/listDriverEarningPerWeek
+
+17 Sep2019
+ 1.) Restro Earining 
+
+
+18 Sep2019
+ 1.) Delivery charges
+ 2.) Driver Fare replace by Driver Earning
+
+
+25 sep 2019
+1.) Change on Coupon Code label name change 
+2.) Coupon Code Not show in retsro created by adminn > done
+
+Working on 4	Admin - Restaurants- Action- Restro Earning- Not working and spelling Mistake 
+
+28Sep2019
+1.) On admin Payment History Replace by Payable Paymant
+2.) In Discount In restro enable disable option hona chahiye
+3.) Online offline status restro
+
+
+30 Sep2019
+1.) path change 
+/ home / ubuntu / Documents / ReactNativeWorkspace / AABrFoodBackEnd / brfoodbackendnode / uploads 
+
+02 Oct2019
+1.) unique key for all registeration
+
+requestData: {"offset":0,"type":"Login_History","role":"user"} API Post: http://192.168.1.147:3080/api/v1/generateReport
+
+remaining 
+
+03 Oct2019
+1.) My Earining
+2.) One Page Report 
+remaining understanding 
+
+{"week_start_date":1569715200000,"week_end_date":1570319999999}
+API Post: http://139.162.29.56:3080/api/v1/order/listAdminEarningPerWeek
+
+
+
+ 11Oct 2019
+1.) Driver earning pay to admin fully or partial payment
+2.) in Coupon need limit person
+
+17Oct 2019
+1) Coupon filter by from date to date 
+2) admin earning
+
+04 Nov 2019
+1.) Driver will not get request from multiple Restaurant
+2.) With restro rang driver will also get request in restaurant rang.
+3.) in user end not got it also will working
+
+05Nov2019
+1.) Driver Fare > Min And Max Km in Decimal
+2.) User Fare > Min And Max Km in Decimal
+3.) Floating Case Refresh issue
+
